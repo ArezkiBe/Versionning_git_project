@@ -3,8 +3,8 @@ name: git linter for merge requests
 on:
   pull_request:
     branches:
-      -develop
-      -production
+      - develop
+      - production
   workflow_dispatch:
 
 jobs:
